@@ -4,13 +4,13 @@ Toutes les modifications notables apportées à ce script seront documentées da
 
 ## [1.2.0] - 2023-04-26
 
+### Ajouté
+- Nouvelle vérification pour s'assurer qu'ExifTool est accessible dans le PATH système
+
 ### Modifié
 - Utilisation de la variable PATH de Windows pour localiser ExifTool au lieu d'un chemin fixe
 - Remplacement du paramètre `exifToolPath` par `exifToolName`
 - Mise à jour de la vérification de la présence d'ExifTool dans le PATH
-
-### Ajouté
-- Nouvelle vérification pour s'assurer qu'ExifTool est accessible dans le PATH système
 
 ## [1.1.0] - 2023-04-25
 
