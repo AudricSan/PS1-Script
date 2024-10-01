@@ -2,6 +2,21 @@
 
 Toutes les modifications notables apportées à ce projet dans son ensemble seront documentées dans ce fichier.
 
+## [1.0.7] - 2024-04-29
+
+### Scripts
+- Mise à jour du script GeoFolder.ps1 (voir [le changelog spécifique](./GeoFolder/CHANGELOG.md) pour plus de détails)
+  - Correction des erreurs d'indexation de tableau null dans la fonction Get-GpsCoordinates
+  - Amélioration de la robustesse de l'extraction des coordonnées GPS
+
+## [1.0.6] - 2024-04-29
+
+### Ajouté
+- Nouveau script GeoFolder.ps1 pour organiser les photos par géolocalisation
+
+### Scripts
+- Ajout du script GeoFolder.ps1 (voir [le changelog spécifique](./GeoFolder/CHANGELOG.md) pour plus de détails)
+
 ## [1.0.5] - 2023-04-29
 
 ### Modifié
