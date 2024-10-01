@@ -2,10 +2,21 @@
 
 Toutes les modifications notables apportées à ce script seront documentées dans ce fichier.
 
+## [1.5.0] - 2023-04-29
+
+### Modifié
+- Mise à jour de la version du script à 1.5.0
+- Amélioration de la gestion des erreurs lors de l'extraction de la date
+- Optimisation de la fonction Get-DateTaken
+
+### Documentation
+- Mise à jour des commentaires dans le script pour une meilleure lisibilité
+
 ## [1.2.0] - 2023-04-26
 
 ### Ajouté
 - Nouvelle vérification pour s'assurer qu'ExifTool est accessible dans le PATH système
+- Affichage de la version du script au démarrage
 
 ### Modifié
 - Utilisation de la variable PATH de Windows pour localiser ExifTool au lieu d'un chemin fixe
@@ -35,7 +46,7 @@ Toutes les modifications notables apportées à ce script seront documentées da
 - Barre de progression simple
 
 ### Configuré
-- Paramètres pour le répertoire cible, le chemin d'ExifTool et les extensions de fichiers supportées
+- Paramètres pour le répertoire cible, le nom de l'exécutable ExifTool et les extensions de fichiers supportées
 
 ### Sécurité
 - Validation des chemins d'entrée pour éviter les erreurs
