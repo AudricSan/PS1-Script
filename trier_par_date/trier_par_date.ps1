@@ -12,9 +12,9 @@
 .EXAMPLE
     .\trier_par_date.ps1 -targetDir "C:\Mes Photos"
 .NOTES
-    Version : 1.2.0
+    Version : 1.5.0
     Auteur  : Audric_San
-    Date    : 26/04/2023
+    Date    : 29/04/2023
 #>
 
 param (
