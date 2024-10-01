@@ -1,3 +1,22 @@
+<#
+.SYNOPSIS
+    Trie les fichiers image par date de capture.
+.DESCRIPTION
+    Ce script trie les fichiers image dans des dossiers organisés par date de capture.
+.PARAMETER targetDir
+    Le chemin du dossier contenant les fichiers à trier.
+.PARAMETER exifToolName
+    Le nom de l'exécutable ExifTool (par défaut : "exiftool.exe").
+.PARAMETER fileExtensions
+    Liste des extensions de fichiers à traiter (par défaut : CR2, CR3, JPG, JPEG, PNG, TIF, TIFF).
+.EXAMPLE
+    .\trier_par_date.ps1 -targetDir "C:\Mes Photos"
+.NOTES
+    Version : 1.2.0
+    Auteur  : Audric_San
+    Date    : 26/04/2023
+#>
+
 param (
     [Parameter(Mandatory = $true)]
     [ValidateScript({ Test-Path $_ -PathType 'Container' })]
@@ -8,6 +27,9 @@ param (
     [Parameter(Mandatory = $false)]
     [string[]]$fileExtensions = @('CR2', 'CR3', 'JPG', 'JPEG', 'PNG', 'TIF', 'TIFF')
 )
+
+$scriptVersion = "1.2.0"
+Write-Host "Exécution du script de tri de fichiers par date (version $scriptVersion)"
 
 # Vérifier si ExifTool est présent dans le PATH
 $exifToolPath = Get-Command $exifToolName -ErrorAction SilentlyContinue
