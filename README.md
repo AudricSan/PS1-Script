@@ -1,58 +1,42 @@
-# Tri de fichiers par date
+# Collection de Scripts PowerShell
 
-Ce script PowerShell permet de trier automatiquement des fichiers image par date de capture dans des dossiers organisés.
+Ce dépôt contient une collection de scripts PowerShell pour l'automatisation de diverses tâches, allant de la gestion de photos à d'autres utilitaires système.
 
-## Fonctionnalités
+## Scripts disponibles
 
-- Trie les fichiers image (CR2, CR3, JPG, JPEG, PNG, TIF, TIFF) par date de capture
-- Utilise ExifTool pour extraire les métadonnées de date
-- Crée des dossiers au format YYYY_MM_DD
-- Affiche une barre de progression avec estimation du temps restant
-- Gère les erreurs et les fichiers sans date de capture
+1. [Tri de fichiers par date](./README-trier_par_date.md) - Trie automatiquement les fichiers image par date de capture.
+2. (Autres scripts seront listés ici au fur et à mesure de leur ajout)
 
-## Prérequis
+## Prérequis généraux
 
 - PowerShell 5.1 ou supérieur
-- [ExifTool](https://exiftool.org/) installé et accessible dans le PATH système
+- Selon le script, des outils ou modules supplémentaires peuvent être nécessaires
+
+## Structure du projet
+
+Chaque script est placé dans son propre dossier, contenant :
+- Le script PowerShell (.ps1)
+- Un README spécifique avec les instructions d'utilisation
+- Un CHANGELOG spécifique pour suivre les modifications du script
 
 ## Utilisation
 
-1. Assurez-vous qu'ExifTool est installé et accessible dans votre PATH système
-2. Ouvrez PowerShell
-3. Naviguez vers le dossier contenant le script
-4. Exécutez le script avec les paramètres souhaités :
-
-## Paramètres
-
-- `-targetDir` : Chemin du dossier contenant les fichiers à trier (obligatoire)
-- `-exifToolName` : Nom de l'exécutable ExifTool (facultatif, par défaut : "exiftool.exe")
-- `-fileExtensions` : Liste des extensions de fichiers à traiter (facultatif, par défaut : CR2, CR3, JPG, JPEG, PNG, TIF, TIFF)
-
-## Exemple
-
-```powershell
-.\trier_par_date.ps1 -targetDir "C:\Mes Photos" -fileExtensions @('JPG', 'PNG')
-```
+Consultez le README de chaque script pour des instructions détaillées sur son utilisation.
 
 ## Contribution
 
-Ce projet est maintenant public sur GitHub. Les contributions sont les bienvenues ! Si vous souhaitez contribuer, veuillez suivre ces étapes :
+Les contributions à ce projet sont les bienvenues. Si vous souhaitez contribuer, veuillez suivre ces étapes :
 
 1. Forkez le projet
-2. Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
+2. Créez votre branche de fonctionnalité (`git checkout -b feature/NouveauScript`)
+3. Committez vos changements (`git commit -m 'Ajout d'un nouveau script'`)
+4. Poussez vers la branche (`git push origin feature/NouveauScript`)
 5. Ouvrez une Pull Request
-
-## Versions
-
-### [1.3.0] - 2023-04-27
-- Le projet est maintenant public sur GitHub
-- Ajout d'un CHANGELOG global
-- Mise à jour de la documentation
-
-Pour plus de détails sur les changements, consultez le fichier [CHANGELOG.md](CHANGELOG.md).
 
 ## Licence
 
 Ce projet est sous licence GNU General Public License v3.0. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## Changelog global
+
+Pour voir l'historique des modifications apportées à ce projet dans son ensemble, consultez le [CHANGELOG.md](CHANGELOG.md).
