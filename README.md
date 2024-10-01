@@ -13,7 +13,7 @@ Ce script PowerShell permet de trier automatiquement des fichiers image par date
 ## Prérequis
 
 - PowerShell 5.1 ou supérieur
-- [ExifTool](https://exiftool.org/) installé sur votre système
+- [ExifTool](https://exiftool.org/) installé et accessible dans le PATH système
 
 ## Utilisation
 
@@ -25,8 +25,14 @@ Ce script PowerShell permet de trier automatiquement des fichiers image par date
 ## Paramètres
 
 - `-targetDir` : Chemin du dossier contenant les fichiers à trier (obligatoire)
-- `-exifToolPath` : Chemin vers l'exécutable ExifTool (facultatif, par défaut : "D:\audri\Sofrtware\exiftool-12.97_64\exiftool.exe")
+- `-exifToolName` : Nom de l'exécutable ExifTool (facultatif, par défaut : "exiftool.exe")
 - `-fileExtensions` : Liste des extensions de fichiers à traiter (facultatif, par défaut : CR2, CR3, JPG, JPEG, PNG, TIF, TIFF)
+
+## Exemple
+
+```powershell
+.\trier_par_date.ps1 -targetDir "C:\Mes Photos" -fileExtensions @('JPG', 'PNG')
+```
 
 ## Licence
 
