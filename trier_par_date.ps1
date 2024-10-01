@@ -3,16 +3,17 @@ param (
     [ValidateScript({ Test-Path $_ -PathType 'Container' })]
     [string]$targetDir,
     
-    [ValidateScript({ Test-Path $_ -PathType 'Leaf' })]
-    [string]$exifToolPath = "D:\audri\Sofrtware\exiftool-12.97_64\exiftool.exe",
+    [string]$exifToolName = "exiftool.exe",
 
     [Parameter(Mandatory = $false)]
     [string[]]$fileExtensions = @('CR2', 'CR3', 'JPG', 'JPEG', 'PNG', 'TIF', 'TIFF')
 )
 
-# Vérifier si ExifTool est présent
-if (-not (Test-Path $exifToolPath)) {
-    Write-Error "ExifTool n'a pas été trouvé. Veuillez spécifier le bon chemin."
+# Vérifier si ExifTool est présent dans le PATH
+$exifToolPath = Get-Command $exifToolName -ErrorAction SilentlyContinue
+
+if (-not $exifToolPath) {
+    Write-Error "ExifTool n'a pas été trouvé dans le PATH. Veuillez l'installer et l'ajouter au PATH de Windows."
     exit 1
 }
 
@@ -20,7 +21,7 @@ if (-not (Test-Path $exifToolPath)) {
 function Get-DateTaken {
     param ([string]$filePath)
     
-    $exifOutput = & $exifToolPath -DateTimeOriginal -T -d "%Y:%m:%d %H:%M:%S" $filePath
+    $exifOutput = & $exifToolName -DateTimeOriginal -T -d "%Y:%m:%d %H:%M:%S" $filePath
     if ($exifOutput) {
         try {
             return [datetime]::ParseExact($exifOutput, "yyyy:MM:dd HH:mm:ss", $null)
