@@ -110,4 +110,3 @@ $fileExtensions | ForEach-Object {
 }
 
 Write-Host "Opération terminée."
-
