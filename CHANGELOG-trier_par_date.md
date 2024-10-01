@@ -1,5 +1,7 @@
 # Changelog pour trier_par_date.ps1
 
+Toutes les modifications notables apportées à ce script seront documentées dans ce fichier.
+
 ## [1.2.0] - 2023-04-26
 
 ### Modifié
