@@ -34,10 +34,25 @@ Ce script PowerShell permet de trier automatiquement des fichiers image par date
 .\trier_par_date.ps1 -targetDir "C:\Mes Photos" -fileExtensions @('JPG', 'PNG')
 ```
 
+## Contribution
+
+Ce projet est maintenant public sur GitHub. Les contributions sont les bienvenues ! Si vous souhaitez contribuer, veuillez suivre ces étapes :
+
+1. Forkez le projet
+2. Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`)
+3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
+4. Poussez vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
+
+## Versions
+
+### [1.3.0] - 2023-04-27
+- Le projet est maintenant public sur GitHub
+- Ajout d'un CHANGELOG global
+- Mise à jour de la documentation
+
+Pour plus de détails sur les changements, consultez le fichier [CHANGELOG.md](CHANGELOG.md).
+
 ## Licence
 
 Ce projet est sous licence GNU General Public License v3.0. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-## Changelog
-
-Consultez le fichier [CHANGELOG.md](CHANGELOG.md) pour voir l'historique des modifications.
