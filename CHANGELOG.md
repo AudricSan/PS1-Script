@@ -2,13 +2,18 @@
 
 Toutes les modifications notables apportées à ce projet seront documentées dans ce fichier.
 
-## [Non publié]
+## [1.3.0] - 2023-04-27
 
 ### Ajouté
 - Création d'un fichier CHANGELOG global pour le projet
+- Le projet est maintenant public sur GitHub
 
 ### Modifié
 - Renommage du fichier de changelog spécifique au script en CHANGELOG-trier_par_date.md
+
+### Documentation
+- Mise à jour du README.md pour inclure des informations sur le projet public
+- Ajout d'une section "Contribution" dans le README.md
 
 ## [1.2.0] - 2023-04-26
 
