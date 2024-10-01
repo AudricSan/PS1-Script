@@ -1,12 +1,12 @@
 param (
-    [Parameter(Mandatory=$true)]
-    [ValidateScript({Test-Path $_ -PathType 'Container'})]
+    [Parameter(Mandatory = $true)]
+    [ValidateScript({ Test-Path $_ -PathType 'Container' })]
     [string]$targetDir,
     
-    [ValidateScript({Test-Path $_ -PathType 'Leaf'})]
+    [ValidateScript({ Test-Path $_ -PathType 'Leaf' })]
     [string]$exifToolPath = "D:\audri\Sofrtware\exiftool-12.97_64\exiftool.exe",
 
-    [Parameter(Mandatory=$false)]
+    [Parameter(Mandatory = $false)]
     [string[]]$fileExtensions = @('CR2', 'CR3', 'JPG', 'JPEG', 'PNG', 'TIF', 'TIFF')
 )
 
@@ -24,7 +24,8 @@ function Get-DateTaken {
     if ($exifOutput) {
         try {
             return [datetime]::ParseExact($exifOutput, "yyyy:MM:dd HH:mm:ss", $null)
-        } catch {
+        }
+        catch {
             Write-Warning "Erreur lors de l'extraction de la date pour $filePath"
             return $null
         }
@@ -59,15 +60,20 @@ function Sort-FilesByDate {
                 
                 $elapsedTime = (Get-Date) - $startTime
                 $averageTimePerFile = $elapsedTime.TotalSeconds / $processedFiles
-                $remainingFiles = $totalFiles - $processedFiles
-                $estimatedRemainingTime = [TimeSpan]::FromSeconds($averageTimePerFile * $remainingFiles)
+                $estimatedRemainingTime = [TimeSpan]::FromSeconds($averageTimePerFile * ($totalFiles - $processedFiles))
                 
-                $status = "Progression : {0:N2}% - Temps restant estimé : {1:hh\:mm\:ss}" -f (($processedFiles / $totalFiles) * 100), $estimatedRemainingTime
+                $status = "Progression : {0:N2}% - Fichiers traités : {1}/{2} - Temps restant estimé : {3:hh\:mm\:ss}" -f 
+                    (($processedFiles / $totalFiles) * 100), 
+                $processedFiles, 
+                $totalFiles, 
+                $estimatedRemainingTime
                 Write-Progress -Activity "Tri des fichiers $fileExtension" -Status $status -PercentComplete (($processedFiles / $totalFiles) * 100)
-            } catch {
+            }
+            catch {
                 Write-Warning "Impossible de déplacer $($file.FullName) : $_"
             }
-        } else {
+        }
+        else {
             Write-Warning "Impossible de récupérer la date de capture pour $($file.FullName)"
         }
     }
