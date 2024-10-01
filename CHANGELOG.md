@@ -1,59 +1,66 @@
 # Changelog
 
-Toutes les modifications notables apportées à ce projet seront documentées dans ce fichier.
+Toutes les modifications notables apportées à ce projet dans son ensemble seront documentées dans ce fichier.
 
-## [1.3.0] - 2023-04-27
+## [1.0.5] - 2023-04-29
+
+### Modifié
+- Réorganisation de la structure du projet
+- Mise à jour des fichiers README et CHANGELOG globaux
+- Correction des liens entre les fichiers
+
+### Documentation
+- Mise à jour des informations de licence et de contribution dans le README principal
+
+### Scripts
+- Mise à jour du script trier_par_date.ps1 (voir [le changelog spécifique](./trier_par_date/CHANGELOG.md) pour plus de détails)
+
+## [1.0.4] - 2023-04-28
+
+### Ajouté
+- Fichier idee.md pour lister les futures fonctionnalités potentielles
+
+### Modifié
+- Restructuration complète du projet
+- Mise à jour des fichiers README et CHANGELOG globaux
+
+## [1.0.3] - 2023-04-27
 
 ### Ajouté
 - Création d'un fichier CHANGELOG global pour le projet
 - Le projet est maintenant public sur GitHub
 
-### Modifié
-- Renommage du fichier de changelog spécifique au script en CHANGELOG-trier_par_date.md
-
 ### Documentation
 - Mise à jour du README.md pour inclure des informations sur le projet public
 - Ajout d'une section "Contribution" dans le README.md
 
-## [1.2.0] - 2023-04-26
-
-### Ajouté
-- Script de tri de fichiers par date (trier_par_date.ps1)
-- Vérification de la présence d'ExifTool dans le PATH système
-- Affichage de la version du script au démarrage
-
-### Modifié
-- Utilisation de la variable PATH de Windows pour localiser ExifTool au lieu d'un chemin fixe
-- Remplacement du paramètre `exifToolPath` par `exifToolName`
+## [1.0.2] - 2023-04-26
 
 ### Documentation
-- Création du fichier README.md avec les instructions d'utilisation
-- Création du fichier CHANGELOG-trier_par_date.md pour suivre les modifications du script
+- Création du fichier README.md principal avec les instructions générales
+- Mise en place de la structure de documentation pour chaque script
 
-## [1.1.0] - 2023-04-25
+### Scripts
+- Mise à jour du script trier_par_date.ps1 (voir [le changelog spécifique](./trier_par_date/CHANGELOG.md) pour plus de détails)
+
+## [1.0.1] - 2023-04-25
 
 ### Ajouté
-- Compteur de fichiers traités dans la barre de progression
-- Affichage du nombre total de fichiers à traiter
+- Premier script ajouté à la collection : trier_par_date.ps1
 
 ### Modifié
-- Amélioration de l'affichage de la progression avec un pourcentage plus précis
-- Mise à jour du format de la barre de progression pour inclure plus d'informations
+- Amélioration de la structure du projet
+- Standardisation de la documentation pour les futurs scripts
 
-### Optimisé
-- Calcul du temps restant estimé basé sur le temps moyen de traitement par fichier
+### Scripts
+- Mise à jour du script trier_par_date.ps1 (voir [le changelog spécifique](./trier_par_date/CHANGELOG.md) pour plus de détails)
 
 ## [1.0.0] - 2023-04-24
 
 ### Ajouté
-- Première version du script de tri de fichiers par date
-- Support pour plusieurs extensions de fichiers
-- Utilisation d'ExifTool pour extraire les dates de capture
-- Gestion des erreurs pour les fichiers sans date de capture
-- Barre de progression simple
+- Initialisation du projet de collection de scripts PowerShell
+- Mise en place de la structure de base du dépôt
+- Création du README principal et du CHANGELOG global
 
-### Configuré
-- Paramètres pour le répertoire cible, le chemin d'ExifTool et les extensions de fichiers supportées
-
-### Sécurité
-- Validation des chemins d'entrée pour éviter les erreurs
+### Scripts
+- Ajout du script initial trier_par_date.ps1 (voir [le changelog spécifique](./trier_par_date/CHANGELOG.md) pour plus de détails)
