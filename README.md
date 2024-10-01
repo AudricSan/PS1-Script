@@ -4,7 +4,7 @@ Ce dépôt contient une collection de scripts PowerShell pour l'automatisation d
 
 ## Scripts disponibles
 
-1. [Tri de fichiers par date](./README-trier_par_date.md) - Trie automatiquement les fichiers image par date de capture.
+1. [Tri de fichiers par date](./trier_par_date/README.md) - Trie automatiquement les fichiers image par date de capture.
 2. (Autres scripts seront listés ici au fur et à mesure de leur ajout)
 
 ## Prérequis généraux
