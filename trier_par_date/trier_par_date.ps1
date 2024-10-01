@@ -17,6 +17,7 @@
     Date    : 29/04/2023
 #>
 
+# Définition des paramètres du script
 param (
     [Parameter(Mandatory = $true)]
     [ValidateScript({ Test-Path $_ -PathType 'Container' })]
@@ -28,10 +29,11 @@ param (
     [string[]]$fileExtensions = @('CR2', 'CR3', 'JPG', 'JPEG', 'PNG', 'TIF', 'TIFF')
 )
 
+# Affichage de la version du script
 $scriptVersion = "1.2.0"
 Write-Host "Exécution du script de tri de fichiers par date (version $scriptVersion)"
 
-# Vérifier si ExifTool est présent dans le PATH
+# Vérification de la présence d'ExifTool dans le PATH
 $exifToolPath = Get-Command $exifToolName -ErrorAction SilentlyContinue
 
 if (-not $exifToolPath) {
@@ -43,9 +45,11 @@ if (-not $exifToolPath) {
 function Get-DateTaken {
     param ([string]$filePath)
     
+    # Exécution d'ExifTool pour obtenir la date de capture
     $exifOutput = & $exifToolName -DateTimeOriginal -T -d "%Y:%m:%d %H:%M:%S" $filePath
     if ($exifOutput) {
         try {
+            # Conversion de la chaîne de date en objet DateTime
             return [datetime]::ParseExact($exifOutput, "yyyy:MM:dd HH:mm:ss", $null)
         }
         catch {
@@ -62,25 +66,31 @@ function Sort-FilesByDate {
         [string]$fileExtension
     )
     
+    # Récupération de tous les fichiers avec l'extension spécifiée
     $files = Get-ChildItem -Path $targetDir -Filter *.$fileExtension -File
     $totalFiles = $files.Count
     $processedFiles = 0
     $startTime = Get-Date
     
     foreach ($file in $files) {
+        # Obtention de la date de capture pour chaque fichier
         $dateTaken = Get-DateTaken -filePath $file.FullName
         if ($dateTaken) {
+            # Création du nom du dossier de destination basé sur la date
             $folderName = $dateTaken.ToString('yyyy_MM_dd')
             $destDir = Join-Path $targetDir $folderName
             
+            # Création du dossier de destination s'il n'existe pas
             if (-not (Test-Path $destDir)) {
                 New-Item -ItemType Directory -Path $destDir | Out-Null
             }
             
             try {
+                # Déplacement du fichier vers le dossier de destination
                 Move-Item -Path $file.FullName -Destination $destDir -ErrorAction Stop
                 $processedFiles++
                 
+                # Calcul et affichage de la progression
                 $elapsedTime = (Get-Date) - $startTime
                 $averageTimePerFile = $elapsedTime.TotalSeconds / $processedFiles
                 $estimatedRemainingTime = [TimeSpan]::FromSeconds($averageTimePerFile * ($totalFiles - $processedFiles))
@@ -104,7 +114,7 @@ function Sort-FilesByDate {
     Write-Host "Tous les fichiers $fileExtension ont été traités. $processedFiles sur $totalFiles ont été triés avec succès."
 }
 
-# Trier les fichiers selon les extensions spécifiées
+# Boucle sur toutes les extensions de fichiers spécifiées
 $fileExtensions | ForEach-Object {
     Sort-FilesByDate -fileExtension $_
 }
