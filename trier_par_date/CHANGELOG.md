@@ -2,6 +2,20 @@
 
 Toutes les modifications notables apportées à ce script seront documentées dans ce fichier.
 
+## [1.6.0] - 2023-04-30
+
+### Ajouté
+- Nouveau paramètre optionnel `destinationDir` pour spécifier un dossier de destination différent
+- Possibilité de trier les fichiers dans un dossier différent du dossier source
+
+### Modifié
+- La fonction `Sort-FilesByDate` utilise maintenant le dossier de destination spécifié s'il est fourni
+- Le dossier source reste le dossier de destination par défaut si aucun dossier de destination n'est spécifié
+
+### Documentation
+- Mise à jour des commentaires dans le script pour expliquer l'utilisation du nouveau paramètre
+- Ajout d'exemples d'utilisation avec et sans le nouveau paramètre `destinationDir`
+
 ## [1.5.0] - 2023-04-29
 
 ### Modifié

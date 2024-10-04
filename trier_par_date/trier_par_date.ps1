@@ -9,12 +9,14 @@
     Le nom de l'exécutable ExifTool (par défaut : "exiftool.exe").
 .PARAMETER fileExtensions
     Liste des extensions de fichiers à traiter (par défaut : CR2, CR3, JPG, JPEG, PNG, TIF, TIFF).
+.PARAMETER destinationDir
+    Le chemin du dossier de destination (par défaut : le dossier source).
 .EXAMPLE
-    .\trier_par_date.ps1 -targetDir "C:\Mes Photos"
+    .\trier_par_date.ps1 -targetDir "C:\Mes Photos" -fileExtensions "CR2", "CR3", "JPG", "JPEG", "PNG", "TIF", "TIFF"
 .NOTES
-    Version : 1.5.0
+    Version : 1.6.0
     Auteur  : Audric_San
-    Date    : 29/04/2024
+    Date    : 2024/10/04
 #>
 
 # Définition des paramètres du script
@@ -26,7 +28,11 @@ param (
     [string]$exifToolName = "exiftool.exe",
 
     [Parameter(Mandatory = $false)]
-    [string[]]$fileExtensions = @('CR2', 'CR3', 'JPG', 'JPEG', 'PNG', 'TIF', 'TIFF')
+    [string[]]$fileExtensions = @('CR2', 'CR3', 'JPG', 'JPEG', 'PNG', 'TIF', 'TIFF'),
+
+    [Parameter(Mandatory = $false)]
+    [ValidateScript({ Test-Path $_ -PathType 'Container' })]
+    [string]$destinationDir
 )
 
 # Affichage de la version du script
@@ -63,14 +69,17 @@ function Get-DateTaken {
 # Fonction pour trier les fichiers par date
 function Sort-FilesByDate {
     param (
-        [string]$fileExtension
+        [string[]]$fileExtensions
     )
     
-    # Récupération de tous les fichiers avec l'extension spécifiée
-    $files = Get-ChildItem -Path $targetDir -Filter *.$fileExtension -File
+    # Récupération de tous les fichiers avec les extensions spécifiées
+    $files = Get-ChildItem -Path $targetDir -Include ($fileExtensions | ForEach-Object { "*.$_" }) -File -Recurse
     $totalFiles = $files.Count
     $processedFiles = 0
     $startTime = Get-Date
+    
+    # Création d'un tableau de hachage pour stocker les dossiers de destination
+    $destDirs = @{}
     
     foreach ($file in $files) {
         # Obtention de la date de capture pour chaque fichier
@@ -78,16 +87,23 @@ function Sort-FilesByDate {
         if ($dateTaken) {
             # Création du nom du dossier de destination basé sur la date
             $folderName = $dateTaken.ToString('yyyy_MM_dd')
-            $destDir = Join-Path $targetDir $folderName
             
-            # Création du dossier de destination s'il n'existe pas
-            if (-not (Test-Path $destDir)) {
-                New-Item -ItemType Directory -Path $destDir | Out-Null
+            # Utilisation du dossier de destination spécifié ou du dossier par défaut
+            $baseDestDir = if ($destinationDir) { $destinationDir } else { $targetDir }
+            
+            # Vérification si le dossier de destination existe déjà dans le tableau de hachage
+            if (-not $destDirs.ContainsKey($folderName)) {
+                $destDir = Join-Path $baseDestDir $folderName
+                # Création du dossier de destination s'il n'existe pas
+                if (-not (Test-Path $destDir)) {
+                    New-Item -ItemType Directory -Path $destDir | Out-Null
+                }
+                $destDirs[$folderName] = $destDir
             }
             
             try {
                 # Déplacement du fichier vers le dossier de destination
-                Move-Item -Path $file.FullName -Destination $destDir -ErrorAction Stop
+                Move-Item -Path $file.FullName -Destination $destDirs[$folderName] -ErrorAction Stop
                 $processedFiles++
                 
                 # Calcul et affichage de la progression
@@ -111,12 +127,10 @@ function Sort-FilesByDate {
         }
     }
     
-    Write-Host "Tous les fichiers $fileExtension ont été traités. $processedFiles sur $totalFiles ont été triés avec succès."
+    Write-Host "Tous les fichiers ont été traités. $processedFiles sur $totalFiles ont été triés avec succès."
 }
 
-# Boucle sur toutes les extensions de fichiers spécifiées
-$fileExtensions | ForEach-Object {
-    Sort-FilesByDate -fileExtension $_
-}
+# Appel de la fonction avec toutes les extensions
+Sort-FilesByDate -fileExtensions $fileExtensions
 
 Write-Host "Opération terminée."

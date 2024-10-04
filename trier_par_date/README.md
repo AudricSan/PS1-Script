@@ -9,6 +9,7 @@ Ce script PowerShell permet de trier automatiquement des fichiers image par date
 - Crée des dossiers au format YYYY_MM_DD
 - Affiche une barre de progression avec estimation du temps restant
 - Gère les erreurs et les fichiers sans date de capture
+- Permet de spécifier un dossier de destination différent du dossier source
 
 ## Prérequis
 
@@ -26,11 +27,18 @@ Ce script PowerShell permet de trier automatiquement des fichiers image par date
 .\trier_par_date.ps1 -targetDir "C:\Chemin\Vers\Vos\Photos"
 ```
 
+Ou, pour spécifier un dossier de destination différent :
+
+```powershell
+.\trier_par_date.ps1 -targetDir "C:\Chemin\Vers\Vos\Photos" -destinationDir "D:\Photos\Triées"
+```
+
 ## Paramètres
 
 - `-targetDir` : Chemin du dossier contenant les fichiers à trier (obligatoire)
 - `-exifToolName` : Nom de l'exécutable ExifTool (facultatif, par défaut : "exiftool.exe")
 - `-fileExtensions` : Liste des extensions de fichiers à traiter (facultatif, par défaut : CR2, CR3, JPG, JPEG, PNG, TIF, TIFF)
+- `-destinationDir` : Chemin du dossier où les fichiers triés
 
 ## Exemple
 
