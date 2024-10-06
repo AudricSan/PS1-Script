@@ -2,6 +2,17 @@
 
 Toutes les modifications notables apportées à ce script seront documentées dans ce fichier.
 
+## [1.6.1] - 2024-04-10
+
+### Ajouté
+- Extraction automatique de la version du script depuis les notes du script
+
+### Modifié
+- La version du script est maintenant affichée dynamiquement au démarrage, en utilisant la version extraite des notes
+
+### Optimisé
+- Suppression de la variable $scriptVersion codée en dur, remplacée par l'extraction dynamique
+
 ## [1.6.0] - 2023-04-30
 
 ### Ajouté

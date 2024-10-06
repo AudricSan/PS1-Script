@@ -14,10 +14,22 @@
 .EXAMPLE
     .\trier_par_date.ps1 -targetDir "C:\Mes Photos" -fileExtensions "CR2", "CR3", "JPG", "JPEG", "PNG", "TIF", "TIFF"
 .NOTES
-    Version : 1.6.0
+    Version : 1.6.1
     Auteur  : Audric_San
-    Date    : 2024/10/04
+    Date    : 2024/10/06
 #>
+
+# Extraction de la version depuis les notes
+$scriptContent = Get-Content $MyInvocation.MyCommand.Path -Raw
+$versionMatch = [regex]::Match($scriptContent, '(?<=Version\s*:\s*)([\d\.]+)')
+if ($versionMatch.Success) {
+    $scriptVersion = $versionMatch.Value
+} else {
+    $scriptVersion = "Version inconnue"
+}
+
+# Affichage de la version du script
+Write-Host "Exécution du script de tri de fichiers par date (version $scriptVersion)"
 
 # Définition des paramètres du script
 param (
@@ -34,10 +46,6 @@ param (
     [ValidateScript({ Test-Path $_ -PathType 'Container' })]
     [string]$destinationDir
 )
-
-# Affichage de la version du script
-$scriptVersion = "1.2.0"
-Write-Host "Exécution du script de tri de fichiers par date (version $scriptVersion)"
 
 # Vérification de la présence d'ExifTool dans le PATH
 $exifToolPath = Get-Command $exifToolName -ErrorAction SilentlyContinue
