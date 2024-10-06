@@ -24,7 +24,7 @@ param (
     [Parameter(Mandatory = $true)]
     [ValidateScript({ Test-Path $_ -PathType 'Container' })]
     [string]$targetDir,
-    
+
     [string]$exifToolName = "exiftool.exe",
 
     [Parameter(Mandatory = $false)]
@@ -58,7 +58,7 @@ if (-not $exifToolPath) {
 # Fonction pour extraire la date de capture avec ExifTool
 function Get-DateTaken {
     param ([string]$filePath)
-    
+
     # Exécution d'ExifTool pour obtenir la date de capture
     $exifOutput = & $exifToolName -DateTimeOriginal -T -d "%Y:%m:%d %H:%M:%S" $filePath
     if ($exifOutput) {
@@ -79,26 +79,26 @@ function Sort-FilesByDate {
     param (
         [string[]]$fileExtensions
     )
-    
+
     # Récupération de tous les fichiers avec les extensions spécifiées
     $files = Get-ChildItem -Path $targetDir -Include ($fileExtensions | ForEach-Object { "*.$_" }) -File -Recurse
     $totalFiles = $files.Count
     $processedFiles = 0
     $startTime = Get-Date
-    
+
     # Création d'un tableau de hachage pour stocker les dossiers de destination
     $destDirs = @{}
-    
+
     foreach ($file in $files) {
         # Obtention de la date de capture pour chaque fichier
         $dateTaken = Get-DateTaken -filePath $file.FullName
         if ($dateTaken) {
             # Création du nom du dossier de destination basé sur la date
             $folderName = $dateTaken.ToString('yyyy_MM_dd')
-            
+
             # Utilisation du dossier de destination spécifié ou du dossier par défaut
             $baseDestDir = if ($destinationDir) { $destinationDir } else { $targetDir }
-            
+
             # Vérification si le dossier de destination existe déjà dans le tableau de hachage
             if (-not $destDirs.ContainsKey($folderName)) {
                 $destDir = Join-Path $baseDestDir $folderName
@@ -108,17 +108,16 @@ function Sort-FilesByDate {
                 }
                 $destDirs[$folderName] = $destDir
             }
-            
             try {
                 # Déplacement du fichier vers le dossier de destination
                 Move-Item -Path $file.FullName -Destination $destDirs[$folderName] -ErrorAction Stop
                 $processedFiles++
-                
+
                 # Calcul et affichage de la progression
                 $elapsedTime = (Get-Date) - $startTime
                 $averageTimePerFile = $elapsedTime.TotalSeconds / $processedFiles
                 $estimatedRemainingTime = [TimeSpan]::FromSeconds($averageTimePerFile * ($totalFiles - $processedFiles))
-                
+
                 $status = "Progression : {0:N2}% - Fichiers traités : {1}/{2} - Temps restant estimé : {3:hh\:mm\:ss}" -f 
                     (($processedFiles / $totalFiles) * 100), 
                 $processedFiles, 
@@ -134,7 +133,7 @@ function Sort-FilesByDate {
             Write-Warning "Impossible de récupérer la date de capture pour $($file.FullName)"
         }
     }
-    
+
     Write-Host "Tous les fichiers ont été traités. $processedFiles sur $totalFiles ont été triés avec succès."
 }
 
