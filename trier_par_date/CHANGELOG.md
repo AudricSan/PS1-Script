@@ -2,6 +2,11 @@
 
 Toutes les modifications notables apportées à ce script seront documentées dans ce fichier.
 
+## [1.6.2] - 2024-04-11
+
+### Corrigé
+- Résolution d'un bug dans la déclaration des paramètres du script causant des erreurs d'affectation
+
 ## [1.6.1] - 2024-04-10
 
 ### Ajouté
