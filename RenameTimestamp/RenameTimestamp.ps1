@@ -84,7 +84,8 @@ foreach ($file in $fileList) {
                 Write-Host "Dry Run : '$filePath' serait renommé en '$newFilePath'"
             } else {
                 Copy-Item -Path $filePath -Destination $newFilePath
-                Write-Host "Fichier '$filePath' renommé en '$newFilePath'"
+                # Suppression de l'affichage de la progression dans le terminal
+                # Write-Host "Fichier '$filePath' renommé en '$newFilePath'"  # Cette ligne est commentée
             }
         } catch {
             Write-Warning "Erreur lors du traitement du fichier '$filePath' : $_"
@@ -95,7 +96,7 @@ foreach ($file in $fileList) {
 
     # Suivi de progression
     $processedFiles++
-    $status = "Progression : {0:N2}% - Fichiers traités : {1}/{2}" -f 
+    $status = "Progression : {0:N2}% - Fichiers traites : {1}/{2}" -f 
         (($processedFiles / $totalFiles) * 100), 
         $processedFiles, 
         $totalFiles
