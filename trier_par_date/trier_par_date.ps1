@@ -26,6 +26,8 @@ param (
     [string]$targetDir,
 
     [string]$exifToolName = "exiftool.exe",
+    # [string]$exifToolName = "C:\Tools\ExifTool\exiftool.exe"
+
 
     [Parameter(Mandatory = $false)]
     [string[]]$fileExtensions = @('CR2', 'CR3', 'JPG', 'JPEG', 'PNG', 'TIF', 'TIFF'),
