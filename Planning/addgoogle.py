@@ -11,18 +11,21 @@ SCOPES = ['https://www.googleapis.com/auth/calendar']
 
 # ID de l'agenda Google Calendar (modifiable ici)
 CALENDAR_ID = "ng6nuk1co4agbpq32eivq1lh90@group.calendar.google.com"
+PLANNING_FILE = "D:\\audri\\Documents\\AudricDev\\PS1_script\\Planning\\planning.json"
+CREDENTIALS = "D:\\audri\\Documents\\AudricDev\\PS1_script\\Planning\\credentials.json"
+TOKEN = "D:\\audri\\Documents\\AudricDev\\PS1_script\\Planning\\token.json"
 
 def connecter_google_calendar():
     creds = None
-    if os.path.exists('token.json'):
-        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+    if os.path.exists(TOKEN):
+        creds = Credentials.from_authorized_user_file(TOKEN, SCOPES)
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file(CREDENTIALS, SCOPES)
             creds = flow.run_local_server(port=0)
-        with open('token.json', 'w') as token:
+        with open(TOKEN, 'w') as token:
             token.write(creds.to_json())
     service = build('calendar', 'v3', credentials=creds)
     return service
@@ -73,7 +76,7 @@ def ajouter_evenements_depuis_planning(planning_json, service, calendar_id=CALEN
                 creer_evenement(service, summary, dt_debut, dt_fin, timezone, calendar_id)
 
 if __name__ == "__main__":
-    nom_fichier = "planning_2025.json"
+    nom_fichier = PLANNING_FILE
     with open(nom_fichier, "r", encoding="utf-8") as f:
         planning = json.load(f)
 
