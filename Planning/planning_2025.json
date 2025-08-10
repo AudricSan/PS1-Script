@@ -1,0 +1,781 @@
+{
+  "info": {
+    "année": 2025,
+    "salaire_horaire": 1078,
+    "pause_heures": 1,
+    "unité_salaire": "yens",
+    "unité_pause": "heures",
+    "timezone": "Asia/Tokyo",
+    "name": "ファミリーマート"
+  },
+  "2025": {
+    "08": {
+      "Semaine 31": {
+        "Vendredi": {
+          "Date": "2025/08/01",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/08/02",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/08/03",
+          "Travail": null
+        }
+      },
+      "Semaine 32": {
+        "Lundi": {
+          "Date": "2025/08/04",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/08/05",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/08/06",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/08/07",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/08/08",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/08/09",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/08/10",
+          "Travail": null
+        }
+      },
+      "Semaine 33": {
+        "Lundi": {
+          "Date": "2025/08/11",
+          "Début": "18:00",
+          "Fin": "22:00"
+        },
+        "Mardi": {
+          "Date": "2025/08/12",
+          "Début": "10:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/08/13",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/08/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/08/15",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/08/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/08/17",
+          "Début": "18:00",
+          "Fin": "22:00"
+        }
+      },
+      "Semaine 34": {
+        "Lundi": {
+          "Date": "2025/08/18",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/08/19",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/08/20",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/08/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/08/22",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/08/23",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/08/24",
+          "Début": "18:00",
+          "Fin": "22:00"
+        }
+      },
+      "Semaine 35": {
+        "Lundi": {
+          "Date": "2025/08/25",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/08/26",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/08/27",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/08/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/08/29",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/08/30",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/08/31",
+          "Travail": null
+        }
+      }
+    },
+    "09": {
+      "Semaine 36": {
+        "Lundi": {
+          "Date": "2025/09/01",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/09/02",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/09/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/09/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/09/05",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/09/06",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/09/07",
+          "Travail": null
+        }
+      },
+      "Semaine 37": {
+        "Lundi": {
+          "Date": "2025/09/08",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/09/09",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/09/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/09/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/09/12",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/09/13",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/09/14",
+          "Travail": null
+        }
+      },
+      "Semaine 38": {
+        "Lundi": {
+          "Date": "2025/09/15",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/09/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/09/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/09/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/09/19",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/09/20",
+          "Travail": null
+        },
+        "Dimanche": {
+          "Date": "2025/09/21",
+          "Travail": null
+        }
+      },
+      "Semaine 39": {
+        "Lundi": {
+          "Date": "2025/09/22",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/09/23",
+          "Travail": null
+        },
+        "Mercredi": {
+          "Date": "2025/09/24",
+          "Travail": null
+        },
+        "Jeudi": {
+          "Date": "2025/09/25",
+          "Travail": null
+        },
+        "Vendredi": {
+          "Date": "2025/09/26",
+          "Travail": null
+        },
+        "Samedi": {
+          "Date": "2025/09/27",
+          "Travail": null
+        },
+        "Dimanche": {
+          "Date": "2025/09/28",
+          "Travail": null
+        }
+      },
+      "Semaine 40": {
+        "Lundi": {
+          "Date": "2025/09/29",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/09/30",
+          "Travail": null
+        }
+      }
+    },
+    "10": {
+      "Semaine 40": {
+        "Mercredi": {
+          "Date": "2025/10/01",
+          "Travail": null
+        },
+        "Jeudi": {
+          "Date": "2025/10/02",
+          "Travail": null
+        },
+        "Vendredi": {
+          "Date": "2025/10/03",
+          "Travail": null
+        },
+        "Samedi": {
+          "Date": "2025/10/04",
+          "Travail": null
+        },
+        "Dimanche": {
+          "Date": "2025/10/05",
+          "Travail": null
+        }
+      },
+      "Semaine 41": {
+        "Lundi": {
+          "Date": "2025/10/06",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/10/07",
+          "Travail": null
+        },
+        "Mercredi": {
+          "Date": "2025/10/08",
+          "Travail": null
+        },
+        "Jeudi": {
+          "Date": "2025/10/09",
+          "Travail": null
+        },
+        "Vendredi": {
+          "Date": "2025/10/10",
+          "Travail": null
+        },
+        "Samedi": {
+          "Date": "2025/10/11",
+          "Travail": null
+        },
+        "Dimanche": {
+          "Date": "2025/10/12",
+          "Travail": null
+        }
+      },
+      "Semaine 42": {
+        "Lundi": {
+          "Date": "2025/10/13",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/10/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/10/15",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/10/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/10/17",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/10/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/10/19",
+          "Travail": null
+        }
+      },
+      "Semaine 43": {
+        "Lundi": {
+          "Date": "2025/10/20",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/10/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/10/22",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/10/23",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/10/24",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/10/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/10/26",
+          "Travail": null
+        }
+      },
+      "Semaine 44": {
+        "Lundi": {
+          "Date": "2025/10/27",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/10/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/10/29",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/10/30",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/10/31",
+          "Début": "07:00",
+          "Fin": "18:00"
+        }
+      }
+    },
+    "11": {
+      "Semaine 44": {
+        "Samedi": {
+          "Date": "2025/11/01",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/11/02",
+          "Travail": null
+        }
+      },
+      "Semaine 45": {
+        "Lundi": {
+          "Date": "2025/11/03",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/11/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/11/05",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/11/06",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/11/07",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/11/08",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/11/09",
+          "Travail": null
+        }
+      },
+      "Semaine 46": {
+        "Lundi": {
+          "Date": "2025/11/10",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/11/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/11/12",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/11/13",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/11/14",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/11/15",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/11/16",
+          "Travail": null
+        }
+      },
+      "Semaine 47": {
+        "Lundi": {
+          "Date": "2025/11/17",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/11/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/11/19",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/11/20",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/11/21",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/11/22",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/11/23",
+          "Travail": null
+        }
+      },
+      "Semaine 48": {
+        "Lundi": {
+          "Date": "2025/11/24",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/11/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/11/26",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/11/27",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/11/28",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/11/29",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/11/30",
+          "Travail": null
+        }
+      }
+    },
+    "12": {
+      "Semaine 49": {
+        "Lundi": {
+          "Date": "2025/12/01",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/12/02",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/12/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/12/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/12/05",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/12/06",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/12/07",
+          "Travail": null
+        }
+      },
+      "Semaine 50": {
+        "Lundi": {
+          "Date": "2025/12/08",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/12/09",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/12/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/12/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/12/12",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/12/13",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/12/14",
+          "Travail": null
+        }
+      },
+      "Semaine 51": {
+        "Lundi": {
+          "Date": "2025/12/15",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/12/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/12/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/12/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/12/19",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/12/20",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/12/21",
+          "Travail": null
+        }
+      },
+      "Semaine 52": {
+        "Lundi": {
+          "Date": "2025/12/22",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/12/23",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/12/24",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2025/12/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2025/12/26",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2025/12/27",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2025/12/28",
+          "Travail": null
+        }
+      },
+      "Semaine 1": {
+        "Lundi": {
+          "Date": "2025/12/29",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2025/12/30",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2025/12/31",
+          "Début": "09:00",
+          "Fin": "18:00"
+        }
+      }
+    }
+  }
+}

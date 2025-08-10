@@ -396,3 +396,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 Planning/credentials.json
+Planning/token.json
