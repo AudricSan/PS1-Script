@@ -9,6 +9,9 @@ from googleapiclient.discovery import build
 # Autorisations Google Calendar : read/write
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 
+# ID de l'agenda Google Calendar (modifiable ici)
+CALENDAR_ID = "ng6nuk1co4agbpq32eivq1lh90@group.calendar.google.com"
+
 def connecter_google_calendar():
     creds = None
     if os.path.exists('token.json'):
@@ -24,7 +27,7 @@ def connecter_google_calendar():
     service = build('calendar', 'v3', credentials=creds)
     return service
 
-def creer_evenement(service, summary, start_datetime, end_datetime, timezone, calendar_id='primary'):
+def creer_evenement(service, summary, start_datetime, end_datetime, timezone, calendar_id=CALENDAR_ID):
     event = {
         'summary': summary,
         'start': {
@@ -39,7 +42,7 @@ def creer_evenement(service, summary, start_datetime, end_datetime, timezone, ca
     event = service.events().insert(calendarId=calendar_id, body=event).execute()
     print(f"Événement créé : {event.get('summary')} ({event.get('start')['dateTime']} - {event.get('end')['dateTime']})")
 
-def ajouter_evenements_depuis_planning(planning_json, service, calendar_id='primary'):
+def ajouter_evenements_depuis_planning(planning_json, service, calendar_id=CALENDAR_ID):
     annee = str(planning_json["info"]["année"])
     mois_data = planning_json[annee]
     timezone = planning_json["info"].get("timezone", "Asia/Tokyo")
@@ -75,5 +78,4 @@ if __name__ == "__main__":
         planning = json.load(f)
 
     service = connecter_google_calendar()
-    agenda_id = "ng6nuk1co4agbpq32eivq1lh90@group.calendar.google.com"
-    ajouter_evenements_depuis_planning(planning, service, agenda_id)
+    ajouter_evenements_depuis_planning(planning, service)
