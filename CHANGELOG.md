@@ -1,4 +1,4 @@
-# Changelog combiné pour GeoFolder et trier_par_date
+# Changelog Global des Scripts
 
 ## [0.0.7] - 2024-04-30
 ### GeoFolder
