@@ -1,16 +1,28 @@
-# Collection de Scripts PowerShell
+# Collection de Scripts PowerShell et Python
 
-Ce dépôt contient une collection de scripts PowerShell pour l'automatisation de diverses tâches, allant de la gestion de photos à d'autres utilitaires système.
+Ce dépôt contient une collection de scripts pour l'automatisation de diverses tâches, comprenant des scripts PowerShell et Python pour différentes utilisations.
 
 ## Scripts disponibles
 
-1. [Tri de fichiers par date](./trier_par_date/README.md) - Trie automatiquement les fichiers image par date de capture.
-2. (Autres scripts seront listés ici au fur et à mesure de leur ajout)
+1. [Calcul Commuterpass Japon](./Calcul%20Commuterpass%20Japon/README.md) - Calcul des pass de transport au Japon
+2. [GeoFolder](./GeoFolder/README.md) - Organisation des photos par géolocalisation
+3. [Planning](./Planning/README.md) - Gestion de planning avec intégration Google Calendar
+4. [RenameTimestamp](./RenameTimestamp/README.md) - Renommage de fichiers avec horodatage
+5. [Sequence Rename](./sequence%20rename/README.md) - Renommage séquentiel de fichiers
+6. [Tri de fichiers par date](./trier_par_date/README.md) - Tri automatique des fichiers par date
+7. [tsTomp4](./tsTomp4/README.md) - Conversion de fichiers .ts en .mp4
 
 ## Prérequis généraux
 
+### Pour les scripts PowerShell
 - PowerShell 5.1 ou supérieur
-- Selon le script, des outils ou modules supplémentaires peuvent être nécessaires
+- ExifTool (pour GeoFolder et trier_par_date)
+- FFmpeg (pour tsTomp4)
+
+### Pour les scripts Python
+- Python 3.8 ou supérieur
+- pip pour l'installation des dépendances
+- Bibliothèques Python requises (listées dans chaque script)
 
 ## Structure du projet
 
