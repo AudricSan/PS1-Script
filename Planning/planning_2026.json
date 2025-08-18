@@ -1,0 +1,1884 @@
+{
+  "info": {
+    "année": 2026,
+    "salaire_horaire": 1078,
+    "pause_heures": 1,
+    "unité_salaire": "yens",
+    "unité_pause": "heures",
+    "timezone": "Asia/Tokyo",
+    "name": "ファミリーマート"
+  },
+  "2026": {
+    "01": {
+      "Semaine 1": {
+        "Jeudi": {
+          "Date": "2026/01/01",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/01/02",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/01/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/01/04",
+          "Travail": null
+        }
+      },
+      "Semaine 2": {
+        "Lundi": {
+          "Date": "2026/01/05",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/01/06",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/01/07",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/01/08",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/01/09",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/01/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/01/11",
+          "Travail": null
+        }
+      },
+      "Semaine 3": {
+        "Lundi": {
+          "Date": "2026/01/12",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/01/13",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/01/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/01/15",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/01/16",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/01/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/01/18",
+          "Travail": null
+        }
+      },
+      "Semaine 4": {
+        "Lundi": {
+          "Date": "2026/01/19",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/01/20",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/01/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/01/22",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/01/23",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/01/24",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/01/25",
+          "Travail": null
+        }
+      },
+      "Semaine 5": {
+        "Lundi": {
+          "Date": "2026/01/26",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/01/27",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/01/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/01/29",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/01/30",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/01/31",
+          "Début": "09:00",
+          "Fin": "18:00"
+        }
+      }
+    },
+    "02": {
+      "Semaine 5": {
+        "Dimanche": {
+          "Date": "2026/02/01",
+          "Travail": null
+        }
+      },
+      "Semaine 6": {
+        "Lundi": {
+          "Date": "2026/02/02",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/02/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/02/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/02/05",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/02/06",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/02/07",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/02/08",
+          "Travail": null
+        }
+      },
+      "Semaine 7": {
+        "Lundi": {
+          "Date": "2026/02/09",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/02/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/02/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/02/12",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/02/13",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/02/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/02/15",
+          "Travail": null
+        }
+      },
+      "Semaine 8": {
+        "Lundi": {
+          "Date": "2026/02/16",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/02/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/02/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/02/19",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/02/20",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/02/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/02/22",
+          "Travail": null
+        }
+      },
+      "Semaine 9": {
+        "Lundi": {
+          "Date": "2026/02/23",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/02/24",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/02/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/02/26",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/02/27",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/02/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        }
+      }
+    },
+    "03": {
+      "Semaine 9": {
+        "Dimanche": {
+          "Date": "2026/03/01",
+          "Travail": null
+        }
+      },
+      "Semaine 10": {
+        "Lundi": {
+          "Date": "2026/03/02",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/03/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/03/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/03/05",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/03/06",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/03/07",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/03/08",
+          "Travail": null
+        }
+      },
+      "Semaine 11": {
+        "Lundi": {
+          "Date": "2026/03/09",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/03/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/03/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/03/12",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/03/13",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/03/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/03/15",
+          "Travail": null
+        }
+      },
+      "Semaine 12": {
+        "Lundi": {
+          "Date": "2026/03/16",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/03/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/03/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/03/19",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/03/20",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/03/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/03/22",
+          "Travail": null
+        }
+      },
+      "Semaine 13": {
+        "Lundi": {
+          "Date": "2026/03/23",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/03/24",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/03/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/03/26",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/03/27",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/03/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/03/29",
+          "Travail": null
+        }
+      },
+      "Semaine 14": {
+        "Lundi": {
+          "Date": "2026/03/30",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/03/31",
+          "Début": "09:00",
+          "Fin": "18:00"
+        }
+      }
+    },
+    "04": {
+      "Semaine 14": {
+        "Mercredi": {
+          "Date": "2026/04/01",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/04/02",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/04/03",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/04/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/04/05",
+          "Travail": null
+        }
+      },
+      "Semaine 15": {
+        "Lundi": {
+          "Date": "2026/04/06",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/04/07",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/04/08",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/04/09",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/04/10",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/04/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/04/12",
+          "Travail": null
+        }
+      },
+      "Semaine 16": {
+        "Lundi": {
+          "Date": "2026/04/13",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/04/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/04/15",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/04/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/04/17",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/04/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/04/19",
+          "Travail": null
+        }
+      },
+      "Semaine 17": {
+        "Lundi": {
+          "Date": "2026/04/20",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/04/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/04/22",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/04/23",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/04/24",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/04/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/04/26",
+          "Travail": null
+        }
+      },
+      "Semaine 18": {
+        "Lundi": {
+          "Date": "2026/04/27",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/04/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/04/29",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/04/30",
+          "Début": "09:00",
+          "Fin": "18:00"
+        }
+      }
+    },
+    "05": {
+      "Semaine 18": {
+        "Vendredi": {
+          "Date": "2026/05/01",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/05/02",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/05/03",
+          "Travail": null
+        }
+      },
+      "Semaine 19": {
+        "Lundi": {
+          "Date": "2026/05/04",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/05/05",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/05/06",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/05/07",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/05/08",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/05/09",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/05/10",
+          "Travail": null
+        }
+      },
+      "Semaine 20": {
+        "Lundi": {
+          "Date": "2026/05/11",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/05/12",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/05/13",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/05/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/05/15",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/05/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/05/17",
+          "Travail": null
+        }
+      },
+      "Semaine 21": {
+        "Lundi": {
+          "Date": "2026/05/18",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/05/19",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/05/20",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/05/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/05/22",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/05/23",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/05/24",
+          "Travail": null
+        }
+      },
+      "Semaine 22": {
+        "Lundi": {
+          "Date": "2026/05/25",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/05/26",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/05/27",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/05/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/05/29",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/05/30",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/05/31",
+          "Travail": null
+        }
+      }
+    },
+    "06": {
+      "Semaine 23": {
+        "Lundi": {
+          "Date": "2026/06/01",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/06/02",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/06/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/06/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/06/05",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/06/06",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/06/07",
+          "Travail": null
+        }
+      },
+      "Semaine 24": {
+        "Lundi": {
+          "Date": "2026/06/08",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/06/09",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/06/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/06/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/06/12",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/06/13",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/06/14",
+          "Travail": null
+        }
+      },
+      "Semaine 25": {
+        "Lundi": {
+          "Date": "2026/06/15",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/06/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/06/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/06/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/06/19",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/06/20",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/06/21",
+          "Travail": null
+        }
+      },
+      "Semaine 26": {
+        "Lundi": {
+          "Date": "2026/06/22",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/06/23",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/06/24",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/06/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/06/26",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/06/27",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/06/28",
+          "Travail": null
+        }
+      },
+      "Semaine 27": {
+        "Lundi": {
+          "Date": "2026/06/29",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/06/30",
+          "Début": "09:00",
+          "Fin": "18:00"
+        }
+      }
+    },
+    "07": {
+      "Semaine 27": {
+        "Mercredi": {
+          "Date": "2026/07/01",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/07/02",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/07/03",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/07/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/07/05",
+          "Travail": null
+        }
+      },
+      "Semaine 28": {
+        "Lundi": {
+          "Date": "2026/07/06",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/07/07",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/07/08",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/07/09",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/07/10",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/07/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/07/12",
+          "Travail": null
+        }
+      },
+      "Semaine 29": {
+        "Lundi": {
+          "Date": "2026/07/13",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/07/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/07/15",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/07/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/07/17",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/07/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/07/19",
+          "Travail": null
+        }
+      },
+      "Semaine 30": {
+        "Lundi": {
+          "Date": "2026/07/20",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/07/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/07/22",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/07/23",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/07/24",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/07/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/07/26",
+          "Travail": null
+        }
+      },
+      "Semaine 31": {
+        "Lundi": {
+          "Date": "2026/07/27",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/07/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/07/29",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/07/30",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/07/31",
+          "Début": "07:00",
+          "Fin": "18:00"
+        }
+      }
+    },
+    "08": {
+      "Semaine 31": {
+        "Samedi": {
+          "Date": "2026/08/01",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/08/02",
+          "Travail": null
+        }
+      },
+      "Semaine 32": {
+        "Lundi": {
+          "Date": "2026/08/03",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/08/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/08/05",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/08/06",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/08/07",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/08/08",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/08/09",
+          "Travail": null
+        }
+      },
+      "Semaine 33": {
+        "Lundi": {
+          "Date": "2026/08/10",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/08/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/08/12",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/08/13",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/08/14",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/08/15",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/08/16",
+          "Travail": null
+        }
+      },
+      "Semaine 34": {
+        "Lundi": {
+          "Date": "2026/08/17",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/08/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/08/19",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/08/20",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/08/21",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/08/22",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/08/23",
+          "Travail": null
+        }
+      },
+      "Semaine 35": {
+        "Lundi": {
+          "Date": "2026/08/24",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/08/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/08/26",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/08/27",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/08/28",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/08/29",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/08/30",
+          "Travail": null
+        }
+      },
+      "Semaine 36": {
+        "Lundi": {
+          "Date": "2026/08/31",
+          "Travail": null
+        }
+      }
+    },
+    "09": {
+      "Semaine 36": {
+        "Mardi": {
+          "Date": "2026/09/01",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/09/02",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/09/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/09/04",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/09/05",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/09/06",
+          "Travail": null
+        }
+      },
+      "Semaine 37": {
+        "Lundi": {
+          "Date": "2026/09/07",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/09/08",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/09/09",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/09/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/09/11",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/09/12",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/09/13",
+          "Travail": null
+        }
+      },
+      "Semaine 38": {
+        "Lundi": {
+          "Date": "2026/09/14",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/09/15",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/09/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/09/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/09/18",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/09/19",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/09/20",
+          "Travail": null
+        }
+      },
+      "Semaine 39": {
+        "Lundi": {
+          "Date": "2026/09/21",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/09/22",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/09/23",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/09/24",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/09/25",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/09/26",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/09/27",
+          "Travail": null
+        }
+      },
+      "Semaine 40": {
+        "Lundi": {
+          "Date": "2026/09/28",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/09/29",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/09/30",
+          "Début": "09:00",
+          "Fin": "18:00"
+        }
+      }
+    },
+    "10": {
+      "Semaine 40": {
+        "Jeudi": {
+          "Date": "2026/10/01",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/10/02",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/10/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/10/04",
+          "Travail": null
+        }
+      },
+      "Semaine 41": {
+        "Lundi": {
+          "Date": "2026/10/05",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/10/06",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/10/07",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/10/08",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/10/09",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/10/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/10/11",
+          "Travail": null
+        }
+      },
+      "Semaine 42": {
+        "Lundi": {
+          "Date": "2026/10/12",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/10/13",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/10/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/10/15",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/10/16",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/10/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/10/18",
+          "Travail": null
+        }
+      },
+      "Semaine 43": {
+        "Lundi": {
+          "Date": "2026/10/19",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/10/20",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/10/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/10/22",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/10/23",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/10/24",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/10/25",
+          "Travail": null
+        }
+      },
+      "Semaine 44": {
+        "Lundi": {
+          "Date": "2026/10/26",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/10/27",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/10/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/10/29",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/10/30",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/10/31",
+          "Début": "09:00",
+          "Fin": "18:00"
+        }
+      }
+    },
+    "11": {
+      "Semaine 44": {
+        "Dimanche": {
+          "Date": "2026/11/01",
+          "Travail": null
+        }
+      },
+      "Semaine 45": {
+        "Lundi": {
+          "Date": "2026/11/02",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/11/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/11/04",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/11/05",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/11/06",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/11/07",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/11/08",
+          "Travail": null
+        }
+      },
+      "Semaine 46": {
+        "Lundi": {
+          "Date": "2026/11/09",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/11/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/11/11",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/11/12",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/11/13",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/11/14",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/11/15",
+          "Travail": null
+        }
+      },
+      "Semaine 47": {
+        "Lundi": {
+          "Date": "2026/11/16",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/11/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/11/18",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/11/19",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/11/20",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/11/21",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/11/22",
+          "Travail": null
+        }
+      },
+      "Semaine 48": {
+        "Lundi": {
+          "Date": "2026/11/23",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/11/24",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/11/25",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/11/26",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/11/27",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/11/28",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/11/29",
+          "Travail": null
+        }
+      },
+      "Semaine 49": {
+        "Lundi": {
+          "Date": "2026/11/30",
+          "Travail": null
+        }
+      }
+    },
+    "12": {
+      "Semaine 49": {
+        "Mardi": {
+          "Date": "2026/12/01",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/12/02",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/12/03",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/12/04",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/12/05",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/12/06",
+          "Travail": null
+        }
+      },
+      "Semaine 50": {
+        "Lundi": {
+          "Date": "2026/12/07",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/12/08",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/12/09",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/12/10",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/12/11",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/12/12",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/12/13",
+          "Travail": null
+        }
+      },
+      "Semaine 51": {
+        "Lundi": {
+          "Date": "2026/12/14",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/12/15",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/12/16",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/12/17",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/12/18",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/12/19",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/12/20",
+          "Travail": null
+        }
+      },
+      "Semaine 52": {
+        "Lundi": {
+          "Date": "2026/12/21",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/12/22",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/12/23",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/12/24",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Vendredi": {
+          "Date": "2026/12/25",
+          "Début": "07:00",
+          "Fin": "18:00"
+        },
+        "Samedi": {
+          "Date": "2026/12/26",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Dimanche": {
+          "Date": "2026/12/27",
+          "Travail": null
+        }
+      },
+      "Semaine 53": {
+        "Lundi": {
+          "Date": "2026/12/28",
+          "Travail": null
+        },
+        "Mardi": {
+          "Date": "2026/12/29",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Mercredi": {
+          "Date": "2026/12/30",
+          "Début": "09:00",
+          "Fin": "18:00"
+        },
+        "Jeudi": {
+          "Date": "2026/12/31",
+          "Début": "09:00",
+          "Fin": "18:00"
+        }
+      }
+    }
+  }
+}

@@ -46,7 +46,7 @@ def calcul_salaire(planning_json):
     }
 
 if __name__ == "__main__":
-    nom_fichier = "planning_2025.json"
+    nom_fichier = "D:\\audri\\Documents\\AudricDev\\PS1_script\\Planning\\planning.json"
     with open(nom_fichier, "r", encoding="utf-8") as f:
         planning = json.load(f)
 
@@ -70,7 +70,7 @@ if __name__ == "__main__":
     print("=== Estimation du salaire ===")
     for mois_num in sorted(resultats["salaire_par_mois"].keys()):
         salaire = resultats["salaire_par_mois"][mois_num]
-        print(f"{mois_fr[mois_num]} = {salaire:.2f} Yen")
+        print(f"{mois_fr[mois_num]} = {salaire:.2f} Yen // {resultats['heures_par_mois'][mois_num]:.2f} h" )
 
     print("=====================")
     print(f"Heures totales dans l'année : {resultats['heures_totales']:.2f} h")

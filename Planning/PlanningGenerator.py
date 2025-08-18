@@ -3,7 +3,7 @@ import calendar
 import json
 
 # ======= PARAMÈTRES MODIFIABLES =======
-ANNEE = 2025
+ANNEE = 2026
 TIMEZONE = "Asia/Tokyo"
 MONEY_UNIT = "yens"
 BREAK_UNIT = "heures"
